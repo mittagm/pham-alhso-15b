@@ -70,22 +70,23 @@
   
     </div>    
   
-    <div style="text-align:center;">
+  <div style="text-align:center;" id="hidebutton">  
       <button id="didebutton" onclick="hideAds()">
         Hide Offers
       </button>
     </div>
-    
-    <script>
+
+   <script>  
       function hideAds() {
-       var x = document.getElementById("specialoffers");
+       var x = document.getElementById("call-outs-container");
        var y = document.getElementById("hidebutton");
         x.style.display = "none";
         y.style.display = "none";
       }
     </script>
+
     <style>
-      body {
+    body {
   font-family: Verdana, sans sefir;
 }
 a:link,
@@ -193,6 +194,6 @@ form{
    text-align: center;
 }
 
-    </style>
+</style>
   </body>
 </html>
